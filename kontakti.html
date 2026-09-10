@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kontakti</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="page">
+  <div class="particles" id="particles-js"></div>
+
+  <nav class="terminal-nav">
+    <div class="terminal-nav__bar">
+      <div class="terminal-nav__dots"><span></span><span></span><span></span></div>
+      <a href="portfolio.html" class="terminal-nav__path">nikola@portfolio:~/kontakti</a>
+    </div>
+    <div class="terminal-nav__row">
+      <a href="parmani.html" class="terminal-nav__link">par-mani</a>
+      <a href="projekti.html" class="terminal-nav__link">projekti</a>
+      <a href="prasmes.html" class="terminal-nav__link">prasmes</a>
+      <a href="portfolio.html" class="terminal-nav__link">sākums</a>
+    </div>
+  </nav>
+
+  <div class="waveform waveform--divider" aria-hidden="true">
+    <div class="waveform__track">
+      <svg viewBox="0 0 600 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,12 C50,4 100,20 150,12 C200,4 250,20 300,12 C350,4 400,20 450,12 C500,4 550,20 600,12" fill="none" stroke="#2dff8a" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+        <path d="M0,28 C50,36 100,20 150,28 C200,36 250,20 300,28 C350,36 400,20 450,28 C500,36 550,20 600,28" fill="none" stroke="#2dff8a" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+      </svg>
+      <svg viewBox="0 0 600 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,12 C50,4 100,20 150,12 C200,4 250,20 300,12 C350,4 400,20 450,12 C500,4 550,20 600,12" fill="none" stroke="#2dff8a" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+        <path d="M0,28 C50,36 100,20 150,28 C200,36 250,20 300,28 C350,36 400,20 450,28 C500,36 550,20 600,28" fill="none" stroke="#2dff8a" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+      </svg>
+    </div>
+  </div>
+
+  <main class="main">
+    <p class="prompt-label">Sazinies ar mani</p>
+    <h1>Sazinies ar mani<span class="cursor" aria-hidden="true">_</span></h1>
+    <h3>Mans e-pasts: keisanikola8@gmail.com<span class="cursor" aria-hidden="true">_</span></h3>
+    <h3>Mans tālrunis: +371 29238602<span class="cursor" aria-hidden="true">_</span></h3>
+
+    <div class="panel">
+      <section id="kontakti">
+        <form action="#" method="post">
+          <div class="form-field">
+            <label for="vards">Vārds</label>
+            <input type="text" id="vards" name="vards" required>
+          </div>
+          <div class="form-field">
+            <label for="epasts">E-pasts</label>
+            <input type="email" id="epasts" name="epasts" required>
+          </div>
+          <div class="form-field">
+            <label for="zina">Ziņa</label>
+            <textarea id="zina" name="zina" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn">Sūtīt</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; 2026 Nikola Keiša</span>
+    <span>Veidots ar HTML, CSS &amp; JS</span>
+  </footer>
+</div>
+
+<script src="particles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
